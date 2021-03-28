@@ -1,0 +1,3 @@
+const that=this
+
+将this值传给that，避免this改变后，原值无法使用。
