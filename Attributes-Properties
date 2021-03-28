@@ -35,3 +35,5 @@ property 是DOM节点的属性，是JavaScript里的对象；
 attribute 是HTML标签上的特性，表现为DOM节点的attributes属性，它的值只能够是字符串；
 
 attribute 和 property之间的数据绑定是单向的，修改 attribute 会导致 property发生修改；
+
+https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-the-html#answer-6004028
