@@ -1,0 +1,37 @@
+attributes仅仅是针对一般的HTML文档元素而言,也就是DOM元素节点自带的一些常用属性，比如id,class以及以data-前缀开头的自定义特性等等
+
+而properties是针对将DOM元素看作节点对象时的一些附加内容，比如:firstChild,lastChild等等。即 properties for DOM Object,attributes for HTML Tag.
+
+HTML文档元素针对的标签元素，所以attributes只是在这些标签元素上才有的
+
+从范围上面来看properties是以node的视角来看的，它的属性的值可以是任何的类型
+
+Attributes – is what's written in HTML.
+
+Properties – is what's in DOM objects.
+Property着重强调具有多少参数，或事物拥有的参数，不用它来特指某事物，只强调“有”。在软件工程中比如properties配置文件，系统环境变量，系统配置参数等。
+
+
+
+Attribute 着重强调某个事物固有的属性，或区别于其他事物的特征，强调“专”。从宏观上讲，比方说Car类，是什么颜色（Color）；多大排量(Displacement)；什
+么品牌（Brand）等，通过这些特征，可以区分出它是一辆什么样的汽车。
+
+
+Attribue和Property从本义上讲，Attribute可翻译为属性，特征；而Property可翻译为属性，资产。
+
+在UML中Property更倾向于宏观的属性描述或属性的统指，Attribute则指具体的类的属性。
+
+
+property 是DOM中的属性，是JavaScript里的对象。
+
+attribute 是HTML标签上的特性，它的值只能够是字符串。
+
+当在编写HTML源代码时，我们可以在HTML元素上定义属性。一旦浏览器解析此代码，将创建一个HTMLInputElement对象，该对象将包含数十个属性，
+如：childElementCount，childNodes，children，classList，className， clientHeight 等，此时说的这些对象属性即为properties。而我们在HTML标签上定义的属性，则为attributes。
+
+
+
+property 是DOM节点的属性，是JavaScript里的对象；
+attribute 是HTML标签上的特性，表现为DOM节点的attributes属性，它的值只能够是字符串；
+
+attribute 和 property之间的数据绑定是单向的，修改 attribute 会导致 property发生修改；
