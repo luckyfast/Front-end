@@ -1,0 +1,8 @@
+WebStorm 提示内容:   
+
+Promise returned from xxx is ignored 
+
+
+这是因为调用的函数加了async, 而?async 声明的函数返回的是一个promise.
+
+在调用这个函数前加一个await声明就可以了, 同时await的这个方法段也要添加async声明才能生效.
